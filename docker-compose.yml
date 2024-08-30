@@ -1,0 +1,11 @@
+
+services:
+  app1:
+    build: app1/
+    ports:
+      - 8080:8080
+
+  app2:
+    build: app2/
+    ports:
+      - 9090:8080
